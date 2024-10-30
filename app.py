@@ -11,6 +11,7 @@ y = df[["preco"]]
 modelo.fit(x ,y)
 
 st.title("Prever valor da Pizza - Pizzaria Machine Learning")
+st.write("Site teste de Machine Learning feito Por: João Pedro Kapp - Noooob")
 st.divider()
 diametro = st.number_input("Digite o tamanho do diametro do pizza em cm: ")
 
