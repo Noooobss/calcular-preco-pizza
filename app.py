@@ -20,3 +20,4 @@ if diametro:
     preco_previsto = modelo.predict([[diametro]])[0][0]
     st.write(f"O valor da Pizza com diametro de {diametro}cm, custa um total de: R${preco_previsto:.2f}")
     st.write("Na compra de três pizzas ganha uma Pizza doce de brinde!")
+    st.divider()
